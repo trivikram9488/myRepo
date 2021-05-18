@@ -1,0 +1,18 @@
+Steps to Checkin the code
+-------------------------
+1. create a local repository
+    git init
+2. Tell Git who you are ?
+    git config --global user.name "Trivikram"
+    git config --global user.email trivikramreddy9488@gmail.com
+3. Add one or more files to staging (index):
+    git add <filename>
+    git add *
+4. Commit changes to head (but not yet to the remote repository):
+    git commit -m "Commit message"
+5. Send changes to the master branch of your remote repository:
+    git push origin master
+6. Connect to a remote repository
+    git remote add origin <server>
+7. Create a new branch and switch to it:
+    git merge <branchname>
